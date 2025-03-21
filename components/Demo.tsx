@@ -53,6 +53,9 @@ export default function Demo() {
         </span>
       </p>
 
+      <p>
+        {process.env["NEXT_PUBLIC_APP_ID"]}-{process.env["NEXT_PUBLIC_API_KEY"]}
+      </p>
       <button
         onClick={(e) => {
           e.preventDefault();
